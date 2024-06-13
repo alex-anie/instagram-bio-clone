@@ -1,0 +1,72 @@
+[
+  {
+    "user_id": "1",
+    "username": "Mike Dee",
+    "profile_picture": "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  {
+    "user_id": "2",
+    "username": "Sandra Tom",
+    "profile_picture": "https://randomuser.me/api/portraits/women/2.jpg"
+  },
+  {
+    "user_id": "3",
+    "username": "Mens",
+    "profile_picture": "https://randomuser.me/api/portraits/men/3.jpg"
+  },
+  {
+    "user_id": "4",
+    "username": "Step Allen",
+    "profile_picture": "https://randomuser.me/api/portraits/women/4.jpg"
+  },
+  {
+    "user_id": "5",
+    "username": "Ryan Gush",
+    "profile_picture": "https://randomuser.me/api/portraits/men/5.jpg"
+  },
+  {
+    "user_id": "6",
+    "username": "Chisom Okafor",
+    "profile_picture": "https://randomuser.me/api/portraits/women/6.jpg"
+  },
+  {
+    "user_id": "7",
+    "username": "Tom Holland",
+    "profile_picture": "https://randomuser.me/api/portraits/men/7.jpg"
+  },
+  {
+    "user_id": "8",
+    "username": "Blessed Tyson",
+    "profile_picture": "https://randomuser.me/api/portraits/women/8.jpg"
+  },
+  {
+    "user_id": "9",
+    "username": "Smith Ree",
+    "profile_picture": "https://randomuser.me/api/portraits/men/9.jpg"
+  },
+  {
+    "user_id": "10",
+    "username": "Lyla Robinson",
+    "profile_picture": "https://randomuser.me/api/portraits/women/10.jpg"
+  },
+  {
+    "user_id": "11",
+    "username": "Fin Fin",
+    "profile_picture": "https://randomuser.me/api/portraits/men/11.jpg"
+  },
+  {
+    "user_id": "12",
+    "username": "Miranda Wilfred",
+    "profile_picture": "https://randomuser.me/api/portraits/women/12.jpg"
+  },
+  {
+    "user_id": "13",
+    "username": "Silk Dress",
+    "profile_picture": "https://randomuser.me/api/portraits/men/13.jpg"
+  },
+  {
+    "user_id": "14",
+    "username": "Oge Joshua",
+    "profile_picture": "https://randomuser.me/api/portraits/women/14.jpg"
+  }
+]

@@ -1,0 +1,448 @@
+/* Remove all the white spaces, padding and margin from the page */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: calibri;
+}
+
+/* Set default color presets for the apps */
+:root {
+  --insta-light-blue: #1877f2;
+  --insta-dark-blue: #125cbd;
+  --insta-darker-gray: #2c2c2c;
+  --insta-dark-gray: #737373;
+  --insta-mid-gray: #b9b9b9;
+  --insta-light-gray: #efefef;
+}
+
+/* Remove default style from anchor tag*/
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* set image default size to 100% of browser width to stop overflow */
+img {
+  width: 100%;
+}
+
+/* ::NAVBAR:: */
+/* Styles for the entire navbar */
+.navbar {
+  width: 100wv;
+  height: 60px;
+  background-color: white;
+  border-bottom: 1px solid var(--insta-mid-gray);
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+}
+
+/* Styling the nav */
+.navbar nav {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styles for sign up buttons */
+.navbar nav .sign-up-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar nav .sign-up-buttons .btn {
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+}
+
+.navbar nav .sign-up-buttons .log-in {
+  background-color: var(--insta-light-blue);
+  color: white;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+
+.navbar nav .sign-up-buttons .log-in:hover {
+  background-color: var(--insta-dark-blue);
+}
+
+.navbar nav .sign-up-buttons .sign-up {
+  color: var(--insta-light-blue);
+}
+
+.navbar nav .sign-up-buttons .sign-up:hover {
+  color: var(--insta-dark-gray);
+}
+
+/* ::PROFILE:: */
+.profile {
+  width: 70%;
+  margin: 4em auto;
+}
+
+.profile section {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  gap: 5em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile .instagram-ring {
+  position: relative;
+  width: 168px;
+  height: 168px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf) border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
+}
+
+.profile .instagram-ring .img-wrapper {
+  width: 150px;
+  height: 150px;
+}
+
+.profile .instagram-ring .img-wrapper img {
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.profile .profile-info .interact span {
+  font-size: 25px;
+  color: var(--insta-darker-gray);
+}
+
+.profile .profile-info .interact {
+  display: flex;
+  gap: 10px;
+}
+
+.profile .profile-info .interact button {
+  background: var(--insta-light-gray);
+  border: none;
+  padding: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.profile .profile-info .interact button:hover {
+  background-color: var(--insta-mid-gray);
+}
+
+.profile .profile-info .posts {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.profile .profile-info .posts p {
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--insta-darker-gray);
+}
+
+.profile .profile-info .posts p:hover {
+  color: var(--insta-mid-gray);
+}
+
+.profile .profile-info .thread {
+  background-color: var(--insta-light-gray);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 6px;
+  border-radius: 100px;
+  margin: 10px 0;
+}
+
+.profile .profile-info .thread span {
+  font-size: 12px;
+}
+
+.profile .profile-info .info .community {
+  color: var(--insta-dark-gray);
+  display: block;
+}
+
+.profile .profile-info .links,
+.profile .profile-info .links a {
+  color: var(--insta-dark-blue);
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/* ::SWIPER COMPONENT:: */
+.followers.slider-main-container {
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+
+.followers swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.followers swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.followers .nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  line-height: 50px;
+  position: absolute;
+  z-index: 8;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  border-radius: 50px;
+  top: 30%;
+  color: white;
+}
+
+.followers .nav-btn.custom-prev-button {
+  left: -2em;
+}
+
+.followers .nav-btn.custom-next-button {
+  right: -2em;
+}
+
+.followers .username {
+  text-align: center;
+  font-weight: bold;
+  color: var(--insta-darker-gray);
+}
+
+/* ::POSTS COMPONENT:: */
+.posts {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.posts .line {
+  margin-top: 2em;
+  border-bottom: 1px solid var(--insta-mid-gray);
+}
+
+.post-navlink {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  margin-top: 1em;
+}
+
+.post-navlink::before {
+  content: "";
+  position: absolute;
+  background-color: var(--insta-darker-gray);
+  top: -17px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+.post-navlink .text {
+  font-weight: bold;
+  color: var(--insta-darker-gray);
+}
+
+.posts .image-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.posts .image-wrapper .shoes {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.posts .image-wrapper .shoes::before {
+  display: none;
+  position: absolute;
+  content: "";
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 5;
+}
+
+.posts .image-wrapper .shoes img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.posts .image-wrapper .shoes .icons {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.posts .image-wrapper .shoes .like-chart-wrapper {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translate(50%, 50%);
+  z-index: 8;
+}
+
+.posts .image-wrapper .shoes:hover .like-chart-wrapper {
+  display: block;
+}
+
+.posts .image-wrapper .shoes:hover::before {
+  display: block;
+}
+
+.posts .load-more-btn {
+  background-color: var(--insta-light-blue);
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.load-btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* ::BRANDLIST */
+.brands-list {
+  width: 70%;
+  margin: auto;
+}
+
+/* ::BRANDS:: */
+.brands section {
+  width: 70%;
+  margin: auto auto 5em auto;
+  position: relative;
+}
+
+.brands .brands-logo {
+  display: block;
+  width: 100%;
+  height: 200px;
+  border: 1px solid var(--insta-mid-gray);
+  border-radius: 5px;
+  padding: 20px 10px;
+  position: relative;
+}
+
+.brands .brands-logo span {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.brands .brands-logo h3 {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.brands .brands-logo p {
+  font-size: 10px;
+  text-align: center;
+}
+
+.brands .brands-logo .btn-wrapper {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 10px;
+}
+
+.brands .brands-logo button {
+  border: none;
+  background: var(--insta-mid-gray);
+  font-size: 16px;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.brands .brands-logo button:hover {
+  background-color: var(--insta-dark-gray);
+  color: white;
+}
+
+.brands .brands-logo .logo-wrapper {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  border: 1px solid var(--insta-mid-gray);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.brands .brands-logo .logo-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.brands .nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  line-height: 50px;
+  position: absolute;
+  z-index: 10;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  border-radius: 50px;
+  top: 40%;
+  color: white;
+}
+
+.brands .nav-btn.custom-prev-button {
+  left: -3em;
+}
+
+.brands .nav-btn.custom-next-button {
+  right: -3em;
+}

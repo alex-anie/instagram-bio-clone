@@ -1,0 +1,77 @@
+[
+  {
+    "id": "1",
+    "brand_name": "Apple",
+    "about": "Designs and sells consumer electronics, software, and online services",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+  },
+  {
+    "id": "2",
+    "brand_name": "Google",
+    "about": "Specializes in Internet-related services and products",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+  },
+  {
+    "id": "3",
+    "brand_name": "Microsoft",
+    "about": "Develops, manufactures, licenses, supports, and sells computer software",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+  },
+  {
+    "id": "4",
+    "brand_name": "Amazon",
+    "about": "Focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+  },
+  {
+    "id": "5",
+    "brand_name": "Facebook",
+    "about": "Provides social networking services",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+  },
+  {
+    "id": "6",
+    "brand_name": "Nike",
+    "about": "Designs, manufactures, and sells footwear, apparel, equipment, and accessories",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg"
+  },
+
+  {
+    "id": "7",
+    "brand_name": "Toyota",
+    "about": "Manufactures and sells automobiles",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Toyota_carlogo.svg"
+  },
+  {
+    "id": "8",
+    "brand_name": "Samsung",
+    "about": "Produces a variety of consumer electronics and electronic components",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+  },
+
+  {
+    "id": "9",
+    "brand_name": "BMW",
+    "about": "Manufactures luxury vehicles and motorcycles",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg"
+  },
+  {
+    "id": "10",
+    "brand_name": "IBM",
+    "about": "Provides computer hardware, software, and consulting services",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"
+  },
+  {
+    "id": "11",
+    "brand_name": "Adidas",
+    "about": "Designs and manufactures sports shoes, clothing, and accessories",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Adidas_Logo.svg"
+  },
+
+  {
+    "id": "13",
+    "brand_name": "Netflix",
+    "about": "Provides streaming media and video-on-demand online",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+  }
+]
